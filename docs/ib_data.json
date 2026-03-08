@@ -1,0 +1,3573 @@
+{
+  "subjects": [
+    {
+      "id": "arabic_a_langlit",
+      "name": "Arabic A: Language and Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 80,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 30,
+            "grade2": 16
+          }
+        }
+      }
+    },
+    {
+      "id": "chinese_a_langlit",
+      "name": "Chinese A: Language and Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "english_a_langlit",
+      "name": "English A: Language and Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          },
+          "SL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "english_a_lit",
+      "name": "English A: Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Guided Literary Analysis",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2: Comparative Essay",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Guided Literary Analysis",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2: Comparative Essay",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          },
+          "SL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          },
+          "SL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          }
+        }
+      }
+    },
+    {
+      "id": "french_a_langlit",
+      "name": "French A: Language and Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 80,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 30,
+            "grade2": 16
+          }
+        }
+      }
+    },
+    {
+      "id": "german_a_langlit",
+      "name": "German A: Language and Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 80,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 30,
+            "grade2": 16
+          }
+        }
+      }
+    },
+    {
+      "id": "korean_a_langlit",
+      "name": "Korean A: Language and Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "spanish_a_langlit",
+      "name": "Spanish A: Language and Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 80,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 30,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 30,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 66,
+            "grade5": 54,
+            "grade4": 42,
+            "grade3": 29,
+            "grade2": 16
+          }
+        }
+      }
+    },
+    {
+      "id": "spanish_a_lit",
+      "name": "Spanish A: Literature",
+      "group": 1,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "HL Essay",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Individual Oral",
+            "maxMarks": 40,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 81,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 80,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 30,
+            "grade2": 16
+          }
+        }
+      }
+    },
+    {
+      "id": "arabic_b",
+      "name": "Arabic B",
+      "group": 2,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          },
+          "SL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          },
+          "SL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          }
+        }
+      }
+    },
+    {
+      "id": "english_b",
+      "name": "English B",
+      "group": 2,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          },
+          "SL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          },
+          "SL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          }
+        }
+      }
+    },
+    {
+      "id": "french_ab",
+      "name": "French Ab Initio",
+      "group": 2,
+      "availableLevels": [
+        "SL"
+      ],
+      "components": {
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "SL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 61,
+            "grade4": 49,
+            "grade3": 36,
+            "grade2": 22
+          }
+        },
+        "TZ2": {
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          }
+        }
+      }
+    },
+    {
+      "id": "french_b",
+      "name": "French B",
+      "group": 2,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          },
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          },
+          "SL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          }
+        }
+      }
+    },
+    {
+      "id": "german_ab",
+      "name": "German Ab Initio",
+      "group": 2,
+      "availableLevels": [
+        "SL"
+      ],
+      "components": {
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "SL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 61,
+            "grade4": 49,
+            "grade3": 36,
+            "grade2": 22
+          }
+        },
+        "TZ2": {
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          }
+        }
+      }
+    },
+    {
+      "id": "german_b",
+      "name": "German B",
+      "group": 2,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          },
+          "SL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          },
+          "SL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          }
+        }
+      }
+    },
+    {
+      "id": "italian_b",
+      "name": "Italian B",
+      "group": 2,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          },
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          },
+          "SL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          }
+        }
+      }
+    },
+    {
+      "id": "mandarin_ab",
+      "name": "Mandarin Ab Initio",
+      "group": 2,
+      "availableLevels": [
+        "SL"
+      ],
+      "components": {
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "SL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 61,
+            "grade4": 49,
+            "grade3": 36,
+            "grade2": 22
+          }
+        },
+        "TZ2": {
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          }
+        }
+      }
+    },
+    {
+      "id": "mandarin_b",
+      "name": "Mandarin B",
+      "group": 2,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 61,
+            "grade4": 49,
+            "grade3": 36,
+            "grade2": 22
+          },
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 61,
+            "grade4": 49,
+            "grade3": 36,
+            "grade2": 22
+          },
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          }
+        }
+      }
+    },
+    {
+      "id": "spanish_ab",
+      "name": "Spanish Ab Initio",
+      "group": 2,
+      "availableLevels": [
+        "SL"
+      ],
+      "components": {
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "SL": {
+            "grade7": 86,
+            "grade6": 73,
+            "grade5": 61,
+            "grade4": 49,
+            "grade3": 36,
+            "grade2": 22
+          }
+        },
+        "TZ2": {
+          "SL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          }
+        }
+      }
+    },
+    {
+      "id": "spanish_b",
+      "name": "Spanish B",
+      "group": 2,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1: Productive Skills \u2013 Writing",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2: Receptive Skills \u2013 Listening & Reading",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment: Individual Oral",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 85,
+            "grade6": 72,
+            "grade5": 60,
+            "grade4": 48,
+            "grade3": 35,
+            "grade2": 21
+          },
+          "SL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 84,
+            "grade6": 71,
+            "grade5": 59,
+            "grade4": 47,
+            "grade3": 34,
+            "grade2": 20
+          },
+          "SL": {
+            "grade7": 83,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          }
+        }
+      }
+    },
+    {
+      "id": "business_management",
+      "name": "Business Management",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 53,
+            "grade4": 42,
+            "grade3": 30,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 16
+          }
+        }
+      }
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 25,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 40,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 60,
+            "weighting": 0.3
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 45,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 25,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 40,
+            "weighting": 0.4
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 45,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 78,
+            "grade6": 66,
+            "grade5": 55,
+            "grade4": 44,
+            "grade3": 32,
+            "grade2": 19
+          },
+          "SL": {
+            "grade7": 77,
+            "grade6": 65,
+            "grade5": 54,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 18
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 77,
+            "grade6": 65,
+            "grade5": 54,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 53,
+            "grade4": 42,
+            "grade3": 30,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "ess",
+      "name": "Environmental Systems and Societies",
+      "group": 3,
+      "availableLevels": [
+        "SL"
+      ],
+      "components": {
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 35,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 65,
+            "weighting": 0.5
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 30,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "SL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 16
+          }
+        },
+        "TZ2": {
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 27,
+            "grade2": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 35,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 40,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 28,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 35,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 40,
+            "weighting": 0.4
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 16
+          },
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 27,
+            "grade2": 15
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 27,
+            "grade2": 15
+          },
+          "SL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 50,
+            "grade4": 38,
+            "grade3": 26,
+            "grade2": 14
+          }
+        }
+      }
+    },
+    {
+      "id": "global_politics",
+      "name": "Global Politics",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 25,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "HL Extension: Engagement Activity",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 25,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.45
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 53,
+            "grade4": 42,
+            "grade3": 30,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 16
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 16
+          },
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 24,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 30,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 35,
+            "weighting": 0.35
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 24,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 30,
+            "weighting": 0.45
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 25,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 16
+          },
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 27,
+            "grade2": 15
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 27,
+            "grade2": 15
+          },
+          "SL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 50,
+            "grade4": 38,
+            "grade3": 26,
+            "grade2": 14
+          }
+        }
+      }
+    },
+    {
+      "id": "itgs",
+      "name": "Information Technology in a Global Society",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 60,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 55,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 30,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment: Project",
+            "maxMarks": 30,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 60,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 55,
+            "weighting": 0.3
+          },
+          {
+            "name": "Internal Assessment: Project",
+            "maxMarks": 30,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 50,
+            "grade4": 38,
+            "grade3": 26,
+            "grade2": 15
+          },
+          "SL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          },
+          "SL": {
+            "grade7": 72,
+            "grade6": 60,
+            "grade5": 48,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 13
+          }
+        }
+      }
+    },
+    {
+      "id": "philosophy",
+      "name": "Philosophy",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 25,
+            "weighting": 0.2
+          },
+          {
+            "name": "HL Extension",
+            "maxMarks": 25,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 20,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 25,
+            "weighting": 0.3
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 20,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 53,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 16
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 16
+          },
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 27,
+            "grade2": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 27,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 22,
+            "weighting": 0.25
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 24,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 22,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 27,
+            "weighting": 0.5
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 22,
+            "weighting": 0.25
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 22,
+            "weighting": 0.25
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 78,
+            "grade6": 66,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 77,
+            "grade6": 65,
+            "grade5": 54,
+            "grade4": 42,
+            "grade3": 30,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 77,
+            "grade6": 65,
+            "grade5": 54,
+            "grade4": 42,
+            "grade3": 30,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 53,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 16
+          }
+        }
+      }
+    },
+    {
+      "id": "anthropology",
+      "name": "Social and Cultural Anthropology",
+      "group": 3,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 30,
+            "weighting": 0.3
+          },
+          {
+            "name": "HL Extension",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 20,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 30,
+            "weighting": 0.35
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 20,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 53,
+            "grade4": 42,
+            "grade3": 30,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 16
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 52,
+            "grade4": 41,
+            "grade3": 29,
+            "grade2": 16
+          },
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 51,
+            "grade4": 40,
+            "grade3": 28,
+            "grade2": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "group": 4,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 72,
+            "weighting": 0.36
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 45,
+            "weighting": 0.24
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 30,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 35,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 77,
+            "grade6": 65,
+            "grade5": 53,
+            "grade4": 41,
+            "grade3": 28,
+            "grade2": 16
+          },
+          "SL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 52,
+            "grade4": 40,
+            "grade3": 27,
+            "grade2": 15
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 52,
+            "grade4": 40,
+            "grade3": 27,
+            "grade2": 15
+          },
+          "SL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 26,
+            "grade2": 14
+          }
+        }
+      }
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "group": 4,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 90,
+            "weighting": 0.36
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 45,
+            "weighting": 0.24
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 30,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 35,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 30,
+            "grade2": 17
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 54,
+            "grade4": 42,
+            "grade3": 29,
+            "grade2": 16
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 54,
+            "grade4": 42,
+            "grade3": 29,
+            "grade2": 16
+          },
+          "SL": {
+            "grade7": 78,
+            "grade6": 66,
+            "grade5": 53,
+            "grade4": 41,
+            "grade3": 28,
+            "grade2": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "computer_science",
+      "name": "Computer Science",
+      "group": 4,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 70,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 65,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 30,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment: Solution",
+            "maxMarks": 34,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 70,
+            "weighting": 0.45
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 65,
+            "weighting": 0.25
+          },
+          {
+            "name": "Internal Assessment: Solution",
+            "maxMarks": 34,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 72,
+            "grade6": 60,
+            "grade5": 48,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          },
+          "SL": {
+            "grade7": 71,
+            "grade6": 59,
+            "grade5": 47,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 13
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 71,
+            "grade6": 59,
+            "grade5": 47,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 13
+          },
+          "SL": {
+            "grade7": 70,
+            "grade6": 58,
+            "grade5": 46,
+            "grade4": 35,
+            "grade3": 23,
+            "grade2": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "design_technology",
+      "name": "Design Technology",
+      "group": 4,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 40,
+            "weighting": 0.2
+          },
+          {
+            "name": "HL Design Project",
+            "maxMarks": 36,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 36,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.3
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 36,
+            "weighting": 0.4
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 50,
+            "grade4": 38,
+            "grade3": 26,
+            "grade2": 15
+          },
+          "SL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          },
+          "SL": {
+            "grade7": 72,
+            "grade6": 60,
+            "grade5": 48,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 13
+          }
+        }
+      }
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "group": 4,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 90,
+            "weighting": 0.36
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 45,
+            "weighting": 0.24
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 30,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 35,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 72,
+            "grade6": 60,
+            "grade5": 48,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 14
+          },
+          "SL": {
+            "grade7": 71,
+            "grade6": 59,
+            "grade5": 47,
+            "grade4": 35,
+            "grade3": 23,
+            "grade2": 13
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 71,
+            "grade6": 59,
+            "grade5": 47,
+            "grade4": 35,
+            "grade3": 23,
+            "grade2": 13
+          },
+          "SL": {
+            "grade7": 70,
+            "grade6": 58,
+            "grade5": 46,
+            "grade4": 34,
+            "grade3": 22,
+            "grade2": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "sports_science",
+      "name": "Sports, Exercise and Health Science",
+      "group": 4,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 40,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 65,
+            "weighting": 0.35
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 40,
+            "weighting": 0.25
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 30,
+            "weighting": 0.2
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 50,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 35,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment",
+            "maxMarks": 24,
+            "weighting": 0.2
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 50,
+            "grade4": 38,
+            "grade3": 26,
+            "grade2": 15
+          },
+          "SL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          },
+          "SL": {
+            "grade7": 72,
+            "grade6": 60,
+            "grade5": 48,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 13
+          }
+        }
+      }
+    },
+    {
+      "id": "math_aa",
+      "name": "Mathematics: Analysis and Approaches",
+      "group": 5,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 110,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 110,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 55,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment: Exploration",
+            "maxMarks": 20,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 80,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 80,
+            "weighting": 0.4
+          },
+          {
+            "name": "Internal Assessment: Exploration",
+            "maxMarks": 20,
+            "weighting": 0.2
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 14
+          },
+          "SL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 48,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 13
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 73,
+            "grade6": 61,
+            "grade5": 48,
+            "grade4": 36,
+            "grade3": 24,
+            "grade2": 13
+          },
+          "SL": {
+            "grade7": 72,
+            "grade6": 60,
+            "grade5": 47,
+            "grade4": 35,
+            "grade3": 23,
+            "grade2": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "math_ai",
+      "name": "Mathematics: Applications and Interpretation",
+      "group": 5,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 110,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 110,
+            "weighting": 0.3
+          },
+          {
+            "name": "Paper 3",
+            "maxMarks": 55,
+            "weighting": 0.2
+          },
+          {
+            "name": "Internal Assessment: Exploration",
+            "maxMarks": 20,
+            "weighting": 0.2
+          }
+        ],
+        "SL": [
+          {
+            "name": "Paper 1",
+            "maxMarks": 80,
+            "weighting": 0.4
+          },
+          {
+            "name": "Paper 2",
+            "maxMarks": 80,
+            "weighting": 0.4
+          },
+          {
+            "name": "Internal Assessment: Exploration",
+            "maxMarks": 20,
+            "weighting": 0.2
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 76,
+            "grade6": 64,
+            "grade5": 51,
+            "grade4": 39,
+            "grade3": 27,
+            "grade2": 15
+          },
+          "SL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 50,
+            "grade4": 38,
+            "grade3": 26,
+            "grade2": 14
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 75,
+            "grade6": 63,
+            "grade5": 50,
+            "grade4": 38,
+            "grade3": 26,
+            "grade2": 14
+          },
+          "SL": {
+            "grade7": 74,
+            "grade6": 62,
+            "grade5": 49,
+            "grade4": 37,
+            "grade3": 25,
+            "grade2": 13
+          }
+        }
+      }
+    },
+    {
+      "id": "dance",
+      "name": "Dance",
+      "group": 6,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Performance",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "Composition/Choreography",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "Dance Investigation",
+            "maxMarks": 24,
+            "weighting": 0.25
+          },
+          {
+            "name": "Collaborative Project",
+            "maxMarks": 20,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Performance",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Composition/Choreography",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Dance Investigation",
+            "maxMarks": 24,
+            "weighting": 0.4
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "film",
+      "name": "Film",
+      "group": 6,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Textual Analysis",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Comparative Study",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Film Reel",
+            "maxMarks": 20,
+            "weighting": 0.25
+          },
+          {
+            "name": "Collaborative Film Project",
+            "maxMarks": 20,
+            "weighting": 0.35
+          }
+        ],
+        "SL": [
+          {
+            "name": "Textual Analysis",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Comparative Study",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Film Reel",
+            "maxMarks": 20,
+            "weighting": 0.4
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "group": 6,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Exploring Music in Context",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Experimenting with Music",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Presenting Music",
+            "maxMarks": 30,
+            "weighting": 0.3
+          },
+          {
+            "name": "Contemporary Music Maker",
+            "maxMarks": 30,
+            "weighting": 0.3
+          }
+        ],
+        "SL": [
+          {
+            "name": "Exploring Music in Context",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Experimenting with Music",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Presenting Music",
+            "maxMarks": 30,
+            "weighting": 0.4
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 79,
+            "grade6": 67,
+            "grade5": 55,
+            "grade4": 43,
+            "grade3": 31,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "theatre",
+      "name": "Theatre",
+      "group": 6,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Solo Theatre Piece",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Director's Notebook",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Research Presentation",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Collaborative Project",
+            "maxMarks": 20,
+            "weighting": 0.25
+          }
+        ],
+        "SL": [
+          {
+            "name": "Solo Theatre Piece",
+            "maxMarks": 20,
+            "weighting": 0.35
+          },
+          {
+            "name": "Director's Notebook",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Research Presentation",
+            "maxMarks": 20,
+            "weighting": 0.35
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 81,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 81,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          },
+          "SL": {
+            "grade7": 80,
+            "grade6": 68,
+            "grade5": 56,
+            "grade4": 44,
+            "grade3": 31,
+            "grade2": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "visual_arts",
+      "name": "Visual Arts",
+      "group": 6,
+      "availableLevels": [
+        "HL",
+        "SL"
+      ],
+      "components": {
+        "HL": [
+          {
+            "name": "Comparative Study",
+            "maxMarks": 20,
+            "weighting": 0.2
+          },
+          {
+            "name": "Process Portfolio",
+            "maxMarks": 36,
+            "weighting": 0.4
+          },
+          {
+            "name": "Exhibition",
+            "maxMarks": 30,
+            "weighting": 0.4
+          }
+        ],
+        "SL": [
+          {
+            "name": "Comparative Study",
+            "maxMarks": 20,
+            "weighting": 0.3
+          },
+          {
+            "name": "Process Portfolio",
+            "maxMarks": 36,
+            "weighting": 0.4
+          },
+          {
+            "name": "Exhibition",
+            "maxMarks": 30,
+            "weighting": 0.3
+          }
+        ]
+      },
+      "gradeBoundaries": {
+        "TZ1": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          }
+        },
+        "TZ2": {
+          "HL": {
+            "grade7": 82,
+            "grade6": 70,
+            "grade5": 58,
+            "grade4": 46,
+            "grade3": 33,
+            "grade2": 19
+          },
+          "SL": {
+            "grade7": 81,
+            "grade6": 69,
+            "grade5": 57,
+            "grade4": 45,
+            "grade3": 32,
+            "grade2": 18
+          }
+        }
+      }
+    }
+  ]
+}

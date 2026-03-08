@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Calculator Admin Dashboard</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --surface-color: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+            --primary-color: #3b82f6;
+            --primary-hover: #2563eb;
+            --success-color: #10b981;
+            --danger-color: #ef4444;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: var(--surface-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .header-title h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .header-title p {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .btn-success {
+            background-color: var(--success-color);
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .group-section {
+            margin-bottom: 3rem;
+        }
+
+        .group-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .card-header {
+            padding: 1.25rem;
+            border-bottom: 1px solid var(--border-color);
+            background-color: #fdfdfd;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-header h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+
+        .card-header .levels {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            background-color: var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .card-content {
+            padding: 1.25rem;
+            display: none;
+        }
+
+        .card.active .card-content {
+            display: block;
+        }
+        
+        .card.active .card-header {
+            background-color: #eff6ff;
+            border-bottom-color: #bfdbfe;
+        }
+
+        .timezone-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .timezone-title {
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .level-section {
+            margin-bottom: 1rem;
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .level-title {
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--primary-color);
+        }
+
+        .boundaries-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 0.5rem;
+        }
+
+        .boundary-input-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .boundary-input-group label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--text-secondary);
+        }
+
+        .boundary-input-group input {
+            width: 100%;
+            padding: 0.375rem;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            border-radius: 0.25rem;
+            font-family: monospace;
+            font-size: 0.875rem;
+        }
+
+        .boundary-input-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--text-primary);
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transform: translateY(150%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        .keyboard-hint {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+            text-align: right;
+            display: block;
+        }
+
+        .instruction-box {
+            background-color: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            color: #1e3a8a;
+        }
+        
+        .instruction-box h4 {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .instruction-box ol {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-title">
+            <h1>IB Calculator Admin</h1>
+            <p>Grade Boundary Management Dashboard</p>
+        </div>
+        <button id="exportBtn" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Export JSON
+        </button>
+    </header>
+
+    <div class="container">
+        <div class="instruction-box">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg> How to update the iOS apps:</h4>
+            <ol>
+                <li>Click on any subject below to edit its Grade Boundaries (the minimum % required for each grade).</li>
+                <li>Changes are saved temporarily as you type.</li>
+                <li>When finished, click the <strong>Export JSON</strong> button in the top right.</li>
+                <li>Replace the <code>docs/ib_data.json</code> file in your repository with the newly downloaded file.</li>
+                <li>Commit and push to GitHub. All iOS apps will automatically download the new stats on their next launch!</li>
+            </ol>
+        </div>
+
+        <input type="text" id="searchInput" class="search-bar" placeholder="Search for a subject (e.g., 'Physics' or 'History')...">
+
+        <div id="contentLoading">Loading grade boundaries...</div>
+        <div id="subjectsContainer"></div>
+    </div>
+
+    <div id="toast" class="toast">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        <span id="toastMessage">JSON Exported Successfully!</span>
+    </div>
+
+    <script>
+        let globalData = null;
+        const groups = {
+            1: "Group 1: Studies in Language and Literature",
+            2: "Group 2: Language Acquisition",
+            3: "Group 3: Individuals and Societies",
+            4: "Group 4: Sciences",
+            5: "Group 5: Mathematics",
+            6: "Group 6: The Arts"
+        };
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchData();
+            
+            // Setup Search
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                const term = e.target.value.toLowerCase();
+                filterSubjects(term);
+            });
+
+            // Setup Export
+            document.getElementById('exportBtn').addEventListener('click', exportJSON);
+        });
+
+        async function fetchData() {
+            try {
+                // Fetch the live JSON file that sits next to this HTML file in the docs folder
+                const response = await fetch('ib_data.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                globalData = await response.json();
+                
+                document.getElementById('contentLoading').style.display = 'none';
+                renderData();
+            } catch (error) {
+                console.error('Error loading JSON:', error);
+                document.getElementById('contentLoading').innerHTML = `
+                    <div style="color: #ef4444; padding: 2rem; background: #fee2e2; border-radius: 0.5rem; text-align: center;">
+                        <strong>Failed to load ib_data.json</strong><br>
+                        Make sure you are running this on a web server or GitHub Pages, not just double-clicking the local HTML file (due to CORS).
+                    </div>
+                `;
+            }
+        }
+
+        function renderData() {
+            const container = document.getElementById('subjectsContainer');
+            container.innerHTML = '';
+
+            // Group subjects by IB Group
+            const subjectsByGroup = {};
+            globalData.subjects.forEach(subject => {
+                const group = subject.group;
+                if (!subjectsByGroup[group]) subjectsByGroup[group] = [];
+                subjectsByGroup[group].push(subject);
+            });
+
+            // Make sure groups are ordered 1 to 6
+            Object.keys(subjectsByGroup).sort().forEach(groupId => {
+                const subjects = subjectsByGroup[groupId];
+                
+                const section = document.createElement('div');
+                section.className = 'group-section';
+                section.dataset.group = groupId;
+                
+                section.innerHTML = `
+                    <h2 class="group-title">${groups[groupId]}</h2>
+                    <div class="grid">
+                        ${subjects.map(subject => createSubjectCard(subject)).join('')}
+                    </div>
+                `;
+                
+                container.appendChild(section);
+            });
+
+            // Attach event listeners for toggling cards and input changes
+            attachCardListeners();
+            attachInputListeners();
+        }
+
+        function createSubjectCard(subject) {
+            // Check if boundaries exist, otherwise provide empty structure
+            if (!subject.gradeBoundaries) {
+                subject.gradeBoundaries = { TZ1: {}, TZ2: {} };
+                subject.availableLevels.forEach(lvl => {
+                    subject.gradeBoundaries.TZ1[lvl] = { grade7: 0, grade6: 0, grade5: 0, grade4: 0, grade3: 0, grade2: 0 };
+                    subject.gradeBoundaries.TZ2[lvl] = { grade7: 0, grade6: 0, grade5: 0, grade4: 0, grade3: 0, grade2: 0 };
+                });
+            }
+
+            return `
+                <div class="card" data-subject-name="${subject.name.toLowerCase()}" data-subject-id="${subject.id}">
+                    <div class="card-header">
+                        <h3>${subject.name}</h3>
+                        <div class="levels">
+                            ${subject.availableLevels.map(l => `<span class="badge">${l}</span>`).join('')}
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        ${createTimezoneSection('TZ1', subject)}
+                        ${createTimezoneSection('TZ2', subject)}
+                        <span class="keyboard-hint">Changes save automatically</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createTimezoneSection(tz, subject) {
+            // Some subjects only have one timezone data in the source, handle gracefully
+            const tzData = subject.gradeBoundaries[tz] || {};
+            
+            let html = `<div class="timezone-section">
+                <div class="timezone-title">${tz === 'TZ1' ? 'Americas (TZ1)' : 'Rest of World (TZ2)'}</div>`;
+
+            subject.availableLevels.forEach(level => {
+                const bounds = tzData[level] || { grade7: 0, grade6: 0, grade5: 0, grade4: 0, grade3: 0, grade2: 0 };
+                
+                html += `
+                    <div class="level-section">
+                        <div class="level-title">${level} Minimum %</div>
+                        <div class="boundaries-grid">
+                            ${[7, 6, 5, 4, 3, 2].map(grade => `
+                                <div class="boundary-input-group">
+                                    <label>Grade ${grade}</label>
+                                    <input type="number" min="0" max="100" 
+                                        data-subject="${subject.id}" 
+                                        data-tz="${tz}" 
+                                        data-level="${level}" 
+                                        data-grade="grade${grade}" 
+                                        value="${bounds[`grade${grade}`] || 0}">
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `</div>`;
+            return html;
+        }
+
+        function attachCardListeners() {
+            document.querySelectorAll('.card-header').forEach(header => {
+                header.addEventListener('click', (e) => {
+                    const card = e.currentTarget.parentElement;
+                    
+                    // Close all other cards
+                    document.querySelectorAll('.card.active').forEach(c => {
+                        if (c !== card) c.classList.remove('active');
+                    });
+                    
+                    card.classList.toggle('active');
+                });
+            });
+        }
+
+        function attachInputListeners() {
+            document.querySelectorAll('input[type="number"]').forEach(input => {
+                input.addEventListener('change', (e) => {
+                    const el = e.target;
+                    const subjectId = el.dataset.subject;
+                    const tz = el.dataset.tz;
+                    const level = el.dataset.level;
+                    const gradeKey = el.dataset.grade;
+                    const value = parseInt(el.value) || 0;
+                    
+                    // Find the subject in global data and update
+                    const subject = globalData.subjects.find(s => s.id === subjectId);
+                    if (subject) {
+                        if (!subject.gradeBoundaries[tz]) subject.gradeBoundaries[tz] = {};
+                        if (!subject.gradeBoundaries[tz][level]) subject.gradeBoundaries[tz][level] = {};
+                        
+                        subject.gradeBoundaries[tz][level][gradeKey] = value;
+                        
+                        // Brief visual feedback
+                        el.style.backgroundColor = '#dcfce7';
+                        setTimeout(() => { el.style.backgroundColor = ''; }, 300);
+                    }
+                });
+            });
+        }
+
+        function filterSubjects(term) {
+            let visibleCount = 0;
+            
+            document.querySelectorAll('.card').forEach(card => {
+                const name = card.dataset.subjectName;
+                if (name.includes(term)) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                    card.classList.remove('active');
+                }
+            });
+
+            // Hide empty group sections
+            document.querySelectorAll('.group-section').forEach(section => {
+                const hasVisibleCards = Array.from(section.querySelectorAll('.card')).some(c => c.style.display === 'block');
+                section.style.display = hasVisibleCards ? 'block' : 'none';
+            });
+            
+            // Show empty state if needed
+            const container = document.getElementById('subjectsContainer');
+            let emptyState = document.getElementById('emptyState');
+            
+            if (visibleCount === 0) {
+                if (!emptyState) {
+                    emptyState = document.createElement('div');
+                    emptyState.id = 'emptyState';
+                    emptyState.className = 'empty-state';
+                    emptyState.innerHTML = '<h3>No subjects found</h3><p>Try a different search term.</p>';
+                    container.appendChild(emptyState);
+                }
+            } else if (emptyState) {
+                emptyState.remove();
+            }
+        }
+
+        function exportJSON() {
+            if (!globalData) return;
+            
+            // Create a blob from the updated JSON data
+            const jsonString = JSON.stringify(globalData, null, 2);
+            const blob = new Blob([jsonString], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            
+            // Create a temporary anchor element to trigger download
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "ib_data.json";
+            document.body.appendChild(a);
+            a.click();
+            
+            // Cleanup
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            // Show toast
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
